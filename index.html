@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Encriptador</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css" 
+</head>
+
+<body>
+    <header> 
+        <p> Decodificador de texto</p> 
+        <br><br>
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="7" placeholder="Digite aqui apenas com letras minúsculas e sem acento"></textarea>
+
+            <div class="botoes">
+                <button class="b-encriptar" onclick="bEncriptar()">Criptografar</button>
+                <button class="b-desencriptar" onclick="bDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensagem" cols="20" rows="11" type="text" name="texto" id="texto" placeholder="Nenhuma mensagem encontrada"></textarea>
+            <button class="b-copiar" onclick="bCopiar()">Copiar</button>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

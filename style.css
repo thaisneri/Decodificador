@@ -1,0 +1,96 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    margin-left: 60px;
+    padding-top: 50px;
+    width: 2%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #31021f;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+.placeholder{color: #000000;}
+    .text-area:focus { 
+        outline: none;
+    }
+
+.mensagem {
+    background: #880e59;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 32px;
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 0;
+    padding-left: 24px;
+    position: absolute;
+}    
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+
+.b-encriptar{
+    background-color: #880e59;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    border: 1px solid #880e59;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.b-desencriptar{
+    background-color: #D8DFE8;;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    border: 1px solid #880e59;
+    color: #880e59;
+    cursor: pointer;
+    margin-left: 30px;
+    
+}
+
+.b-copiar{
+    width: 336px;
+    margin-left: 115px;
+    margin-top: 450px;
+    height: 67px;
+    border: 1px solid #880e59;
+    border-radius: 24px;
+    color: #880e59;
+    cursor: pointer;
+    position:absolute;
+}
+
+
+ 
+p {
+    color: #880e59;
+    position: absolute;
+    font-size: 40px;
+    left: 100px
+}
