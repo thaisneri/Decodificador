@@ -43,7 +43,8 @@ function desencriptar (stringDesencriptada) {
 function bCopiar () {
     const textoCopiado = copiar(textarea.value);
     mensagem.value = textoCopiado;
-    textarea.value ="";
+    textarea.textoCopiado = mensagem;
+
 }
 
 
@@ -52,5 +53,6 @@ function copiar() {
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999);
     document.execCommand("copy");
+    bCopiar.addEventListener('click', copiar);
 } 
 
